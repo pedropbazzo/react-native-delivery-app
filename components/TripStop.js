@@ -19,8 +19,8 @@ class TripStop extends React.Component {
 
   onPress() {
     this.props.navigation.navigate('Stop', {
-      trip: this.props.trip,
-      stop: this.props.stop
+      // trip: this.props.trip,
+      // stop: this.props.stop
     });
   }
 
