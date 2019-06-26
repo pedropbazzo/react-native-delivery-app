@@ -13,6 +13,6 @@ export default {
   colorDarkGray: '#51576b',
   subNavHeaderColor: '#3993f6',
   subNavBodyColor: '#2f333e',
-  tripRowRadius: 10,
-  tripRowStatusRadius: 12
+  tripRowRadius: 12,
+  tripRowStatusRadius: 15
 };
