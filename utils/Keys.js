@@ -1,3 +1,3 @@
 export default {
-  GoogleAPI: 'AIzaSyCoXenzWTvDXsh6YbfdRg-0HPK2IFfTLkc'
+  GoogleAPI: 'YOUR-GOOGLE-MAP-KEY-HERE'
 }
