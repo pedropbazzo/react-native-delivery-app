@@ -37,7 +37,7 @@ export default class DashboardScreen extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    margin: 30,
+    margin: 32,
     alignItems: 'stretch',
     justifyContent: 'center',
   },
