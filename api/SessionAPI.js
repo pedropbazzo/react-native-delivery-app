@@ -3,7 +3,7 @@ import API from './API'
 const SessionAPI = {
   logIn: function(username, password) {
     return API.post(
-      `/api/v1/sessions`, {
+      `/api/v2/sessions`, {
         'section': 'Driver',
         'profile[username]': username,
         'profile[password]': password
@@ -12,7 +12,7 @@ const SessionAPI = {
   },
 
   logOut: function() {
-    return API.delete(`/api/v1/sessions`);
+    return API.delete(`/api/v2/sessions`);
   }
 };
 
