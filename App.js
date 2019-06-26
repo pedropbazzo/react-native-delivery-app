@@ -1,11 +1,5 @@
 import { createStackNavigator, createSwitchNavigator, createAppContainer } from 'react-navigation';
-import {
-  setCustomView,
-  setCustomTextInput,
-  setCustomText,
-  setCustomImage,
-  setCustomTouchableOpacity
-} from 'react-native-global-props';
+import { setCustomView, setCustomTextInput, setCustomText, setCustomImage, setCustomTouchableOpacity } from 'react-native-global-props';
 import { Platform } from 'react-native';
 import Variables from './styles/Variables';
 import SignInScreen from './screens/SignInScreen';
@@ -17,7 +11,7 @@ import DocumentScreen from './screens/DocumentScreen';
 
 const customTextProps = {
   style: {
-    fontSize: 16,
+    fontSize: 18,
     fontFamily: Platform.OS === 'ios' ? 'HelveticaNeue' : 'Roboto',
     color: Variables.colorDarkGray
   }
