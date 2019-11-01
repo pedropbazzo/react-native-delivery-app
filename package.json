@@ -9,10 +9,10 @@
   "dependencies": {
     "@mapbox/polyline": "^1.0.0",
     "axios": "^0.18.0",
-    "expo": "^32.0.0",
+    "expo": "^35.0.0",
     "moment": "^2.23.0",
     "react": "16.8.3",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
     "react-native-elements": "^0.19.1",
     "react-native-global-props": "^1.1.5",
     "react-native-keyboard-aware-scroll-view": "^0.8.0",
@@ -22,7 +22,7 @@
     "react-number-format": "^4.0.6"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0"
+    "babel-preset-expo": "^7.0.0"
   },
   "private": true
 }
